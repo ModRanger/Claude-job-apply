@@ -2,6 +2,14 @@
 
 | # | Date | Company | Role | Score | Status | PDF | Report | Notes |
 |---|------|---------|------|-------|--------|-----|--------|-------|
+| 17 | 2026-06-10 | Mozilla | Executive Assistant | 2.8/5 | SKIP | ❌ | [017](reports/017-mozilla-2026-06-10.md) | Top-quartile comp ($95-151K) but hard 5+yr exec-support bar; high screen-out risk for non-EA CV |
+| 18 | 2026-06-10 | Thumbtack | Executive Assistant III | 2.5/5 | Discarded | ❌ | [018](reports/018-thumbtack-2026-06-10.md) | Canonical (Canada) posting marked filled; Ashby 404; separate live US EA III at $108-164K noted, same 5+yr EA bar |
+| 19 | 2026-06-10 | Function Health | Executive Assistant to CEO (Ezra) | 3.8/5 | Evaluated | ❌ | [019](reports/019-function-health-2026-06-10.md) | Best fit of batch: EA title not required, founder DNA welcomed, $80-100K, fast loop; build AI-workflow write-up before applying |
+| 20 | 2026-06-10 | Serhant. | Agent Marketing Administrator | 3.5/5 | Evaluated | ❌ | [020](reports/020-serhant-2026-06-10.md) | Service-ops fit real ("I was your customer" angle) but below-level seat at $70K flat; real-estate-preferred filter |
+| 21 | 2026-06-10 | Circana | Administrative Assistant | 2.7/5 | SKIP | ❌ | [021](reports/021-circana-2026-06-10.md) | 2x-market pay ($41-45/hr) but hard 5yr admin-support req + AI resume screening + enterprise tooling gap; closes ~2026-06-22 |
+| 22 | 2026-06-10 | Common Prefix | Business Development Lead | 3.8/5 | Evaluated | ❌ | [22](reports/022-common-prefix-2026-06-10.md) | Live; remote worldwide (US ET ok); $90-130K+stock; interop-network gap; apply via founder DM after 1-2d domain prep |
+| 23 | 2026-06-10 | Tail | Perps Growth & BD Lead | 2.7/5 | SKIP | ❌ | [23](reports/023-tail-2026-06-10.md) | Anonymous perps platform; no comp disclosed (floor rule); perps/KOL network is a hard gap; US regulatory risk |
+| 24 | 2026-06-10 | Wert | Business Development Manager | N/A | Discarded | ❌ | [24](reports/024-wert-2026-06-10.md) | Posting marked closed on web3.career as of 2026-06-10; re-evaluate if reposted with comp >=$60K base |
 | 11 | 2026-06-10 | Token Metrics | X/Twitter Social Media Manager | 1.5/5 | Discarded | ❌ | [011](reports/011-token-metrics-2026-06-10.md) | Dead posting (removed Jan 08 2026) + role explicitly Non-USA — double hard blocker for MD-based candidate |
 | 12 | 2026-06-10 | Sahara AI | Social Media Manager & Content Specialist | 3.6/5 | Evaluated | ❌ | [012](reports/012-sahara-ai-2026-06-10.md) | Live on Ashby; US-remote 6-mo contract w/ benefits; strong crypto-community fit, no formal SMM tooling; confirm rate >$45K, expect content test |
 | 13 | 2026-06-10 | Base | Social Media Manager, Base | 4.2/5 | Evaluated | ❌ | [013](reports/013-base-2026-06-10.md) | Posted 06-09, Remote USA; perfect crypto-Twitter fit, Coinbase L2 brand; likely EOR/agency seat ~$48-65K — confirm structure, apply within 48h |

@@ -3,16 +3,20 @@
 Seeded 2026-06-10 via web search (listings/BD/partnerships, crypto-first).
 Status: pending = not yet evaluated. Verify each is still active before applying.
 
-## Pending — queued from 2026-06-10 hub scan (batch #3 candidates)
+## Pending
 
-- [ ] pending — Common Prefix — Business Development Lead, $90–130K — https://web3.career/business-development-lead-common-prefix/149796 (verify US-timezone eligibility; Athens-leaning)
-- [ ] pending — Tail — Perps Growth BD Lead — https://web3.career/perps-growth-bd-lead-tail/149610 (DeFi perps; Discord-native motion)
-- [ ] pending — Wert — Business Development Manager — https://web3.career/business-development-manager-wert/149124 (fiat-to-crypto onramp, NFT focus; ~1mo old)
-- [ ] pending — Mozilla — Executive Assistant, $95–151K — https://dynamitejobs.com/company/mozilla/remote-job/executive-assistant-2 (formal EA bar likely steep)
-- [ ] pending — Thumbtack — Executive Assistant III, $71.5–92.5K — https://dynamitejobs.com/company/thumbtack/remote-job/executive-assistant-iii-2 (second listing at $108–164K also live)
-- [ ] pending — Function Health — EA to CEO, $80–100K — https://dynamitejobs.com/company/functionhealth/remote-job/executive-assistant-to-ceo-ezra
-- [ ] pending — Serhant. — Agent Marketing Administrator, $70K — https://dynamitejobs.com/company/serhant/remote-job/agent-marketing-administrator (admin+marketing hybrid)
-- [ ] pending — Circana — Administrative Assistant, $41–45/hr — https://dynamitejobs.com/company/circana/remote-job/administrative-assistant (closes ~2026-06-22)
+(empty — add URLs here anytime; say "process the pipeline" to evaluate them)
+
+## Processed (2026-06-10 batch #3)
+
+- [x] #017 | Mozilla | Executive Assistant | 2.8/5 | PDF ❌ | SKIP — $95–151K but hard 5+ yr EA bar; career-EA candidate pool
+- [x] #018 | Thumbtack | Executive Assistant III | 2.5/5 | PDF ❌ | Discarded — role filled (Ashby 404); separate US EA III at $108–164K live but same hard bar
+- [x] #019 | Function Health | EA to CEO (Ezra) | 3.8/5 | PDF ❌ | Evaluated — BEST of batch; JD waives EA-title requirement, rewards founder DNA; apply within 48h with AI-workflow write-up
+- [x] #020 | Serhant. | Agent Marketing Administrator | 3.5/5 | PDF ❌ | Evaluated — apply only for speed; $70K agent-support seat, "I was your customer" angle
+- [x] #021 | Circana | Administrative Assistant | 2.7/5 | PDF ❌ | SKIP — ~$85–94K but hard 5-yr bar + tool stack gap + AI resume screening
+- [x] #022 | Common Prefix | Business Development Lead | 3.8/5 | PDF ❌ | Evaluated — $90–130K + stock, remote worldwide confirmed; founder-DM-first after 1–2 days research prep
+- [x] #023 | Tail | Perps Growth & BD Lead | 2.7/5 | PDF ❌ | SKIP — no comp disclosed, wrong network, anonymous company w/ regulatory exposure
+- [x] #024 | Wert | Business Development Manager | N/A | PDF ❌ | Discarded — "This job is closed"; re-evaluate if reposted with comp
 
 ## Processed (2026-06-10 batch #2)
 
