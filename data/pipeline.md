@@ -19,6 +19,22 @@ Status: pending = not yet evaluated. Verify each is still active before applying
 - [ ] pending — Fireblocks — BD Manager, Blockchain and DeFi Ecosystem — https://cryptocurrencyjobs.co/defi/ (find Fireblocks listing)
 - [ ] pending — ethdevs.io — BD Manager, Web3/Blockchain/AI Services (US remote, Apr 2026) — https://startup.jobs/business-development-manager-web3-blockchain-and-ai-development-services-ethdevsio-6335145
 
+## New categories (added 2026-06-10): AI BD entry / social media / admin
+
+- [ ] pending — Token Metrics — X/Twitter Social Media Manager (Remote) — https://builtin.com/job/xtwitter-social-media-manager-remote-global-non-usa/4730813 (crypto analytics platform — strong fit with Bobos Twitter experience)
+- [ ] pending — Sahara AI — Social Media Manager & Content Specialist (Remote US) — https://cryptocurrencyjobs.co/social-media-marketing/ (find Sahara AI listing — AI x crypto, bridges both targets)
+
+## New-category hub pages to scan
+
+- [ ] scan — https://www.remoterocketship.com/us/jobs/entry-level-bdr/ (entry-level remote BDR)
+- [ ] scan — https://builtin.com/jobs/remote/sales/search/sdr (remote SDR at tech/AI companies)
+- [ ] scan — https://web3.career/remote+social-media-jobs (513 Web3 social media jobs)
+- [ ] scan — https://cryptocurrencyjobs.co/social-media-marketing/ (crypto social media)
+- [ ] scan — https://wellfound.com/role/r/social-media-manager (startup social media)
+- [ ] scan — https://dynamitejobs.com/category/remote-admin-va-jobs (remote admin/VA)
+- [ ] scan — https://wellfound.com/role/r/administrative-assistant ($42k–84k remote admin)
+- [ ] scan — https://www.remoterocketship.com/us/jobs/executive-assistant/ (remote EA)
+
 ## Hub pages to scan next (volume sources)
 
 - [ ] scan — https://web3.career/business-development+remote-jobs (833 remote BD jobs)

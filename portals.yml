@@ -35,6 +35,18 @@ title_filter:
     - "SDR"
     - "BDR"
     - "Operations Manager"
+    # -- New categories (added 2026-06-10) --
+    - "Social Media"
+    - "Content Manager"
+    - "Marketing Coordinator"
+    - "Administrative Assistant"
+    - "Executive Assistant"
+    - "Virtual Assistant"
+    - "Office Manager"
+    - "Operations Coordinator"
+    - "Customer Support"
+    - "Moderator"
+    - "Event"
   negative:
     - "Intern"
     - "Unpaid"
@@ -96,6 +108,22 @@ search_queries:
 
   - name: WeWorkRemotely — sales fallback
     query: 'site:weworkremotely.com "account manager" OR "business development" OR "customer success"'
+    enabled: true
+
+  - name: AI startups — entry BD/SDR
+    query: 'site:jobs.ashbyhq.com OR site:boards.greenhouse.io AI "sales development representative" OR "business development representative" remote entry'
+    enabled: true
+
+  - name: Social media — remote
+    query: 'site:weworkremotely.com OR site:remoteok.com "social media manager" OR "social media coordinator" remote'
+    enabled: true
+
+  - name: Crypto social/community
+    query: 'site:cryptojobslist.com OR site:web3.career "social media" OR "community manager" remote'
+    enabled: true
+
+  - name: Admin/EA — remote
+    query: 'site:weworkremotely.com OR site:remoteok.com "executive assistant" OR "administrative assistant" OR "virtual assistant" remote US'
     enabled: true
 
 # -- Tracked companies --

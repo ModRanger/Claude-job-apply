@@ -17,7 +17,12 @@
 | **Community / Ecosystem Lead** | Discord/Twitter ops, events, ambassador programs | Someone who has actually grown and run a Web3 community |
 | **Account Manager / CSM** | Relationship management, retention, vendor negotiation | An owner-operator who keeps accounts healthy and growing |
 | **Sales / SDR / BDR (any industry)** | Outbound, qualification, pipeline | High-volume outreach muscle, proven in crypto's noisiest channels |
+| **AI BD (entry level)** | AI/SaaS outbound, demos, pipeline building | A closer who already lives in emerging-tech communities |
+| **Social Media Manager** | Twitter/X, Discord, content calendars, engagement | Someone who grew a $2M project's community organically |
+| **Administrative / Executive Assistant** | Scheduling, records, vendor mgmt, bookkeeping | An ex-business-owner who ran payroll, licensing, and compliance solo |
 | **Operations Manager (SMB/multi-unit)** | P&L, hiring, payroll, compliance, vendors | 6 years of real operating experience with full accountability |
+| **Restaurant / Hospitality Manager** | FOH/BOH, scheduling, vendors, service standards | Executive Chef + 6-year salon owner; can interview this week, offers in days |
+| **Customer Support / Moderator (crypto)** | Tickets, Discord, escalation, docs | Crypto-fluent, community-tested, async-native |
 
 ## Your Adaptive Framing
 
@@ -28,6 +33,11 @@
 | Community / Ecosystem | Co-founded $2M community-led launch; weekly cross-project events | cv.md (Bobo Olympics) |
 | Account Mgmt / CSM | Vendor relationships, contract negotiation, retention programs | cv.md (Bethesda Salon) |
 | Sales / SDR / BDR | Cold outreach that closed 40+ deals; thrives in high-rejection channels | cv.md (both) |
+| AI BD (entry) | Self-taught emerging-tech operator: mastered NFT/token mechanics, can do same for AI; founder-direct outreach | cv.md (Bobos of War) |
+| Social Media | Grew community to $2M raise via Twitter/Discord; weekly event content engine (Bobo Olympics) | cv.md (Bobos of War) |
+| Admin / EA | Bookkeeping, licensing, compliance, payroll, scheduling for 11 staff across 2 locations | cv.md (Bethesda Salon) |
+| Hospitality Mgmt | Executive Chef (promoted in 10 months) + 6-year multi-unit owner | cv.md (Prior Experience + Salon) |
+| Support / Moderator | 4 years living in Discord/Twitter crypto communities; ran cross-project ops | cv.md (Bobos of War) |
 | Operations | Two locations, 11 employees, full P&L, licensing & compliance | cv.md (Bethesda Salon) |
 
 ## Your Exit Narrative
