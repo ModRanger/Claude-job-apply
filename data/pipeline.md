@@ -3,21 +3,18 @@
 Seeded 2026-06-10 via web search (listings/BD/partnerships, crypto-first).
 Status: pending = not yet evaluated. Verify each is still active before applying.
 
-## High priority — Listings roles (direct match)
+## Processed (2026-06-10 batch — see reports/ and data/applications.md)
 
-- [ ] pending — Coinbase — Business Development Associate, Listings (Base Builders), $130k–154k Remote — found via https://web3.career/crypto-jobs (search "Coinbase listings Base Builders" on coinbase.com/careers to get canonical URL)
-- [ ] pending — BitGo — Associate, Listings & Ecosystem Development (New York) — https://cryptocurrencyjobs.co/sales/bitgo-associate-listings-ecosystem-development/
-- [ ] pending — Kraken — Sr Associate, Business Development (Asset Listing) — https://web3.career/sr-associate-business-development-asset-listing-kraken/95759 (older posting — verify on jobs.kraken.com)
-- [ ] pending — Extsy — Listings Operations Manager (Remote) — https://cryptocurrencyjobs.co/startups/extsy/
-
-## Web3 BD / Partnerships
-
-- [ ] pending — Superstate — Business Development, Protocol/DeFi — https://cryptocurrencyjobs.co/sales/superstate-business-development-protocol-defi/
-- [ ] pending — Cere Network — Business Development Manager, Web3 (Remote worldwide) — https://cryptocurrencyjobs.co/sales/cere-network-business-development-manager-web3/
-- [ ] pending — ChainGPT — BD Manager, Web3 SaaS & White-Label (100% remote) — https://cryptocurrencyjobs.co/sales/chaingpt-business-development-manager-web3-saas-white-label/
-- [ ] pending — Toobit — Business Development Manager (Remote, posted ~2w ago) — https://cryptojobslist.com/ (find Toobit BD Manager listing)
-- [ ] pending — Fireblocks — BD Manager, Blockchain and DeFi Ecosystem — https://cryptocurrencyjobs.co/defi/ (find Fireblocks listing)
-- [ ] pending — ethdevs.io — BD Manager, Web3/Blockchain/AI Services (US remote, Apr 2026) — https://startup.jobs/business-development-manager-web3-blockchain-and-ai-development-services-ethdevsio-6335145
+- [x] #001 | Coinbase | BD Associate, Listings (Base Builders) | 4.2/5 | PDF ❌ | Discarded — posting closed; monitor for relisting + DM Base ecosystem team
+- [x] #002 | BitGo | Associate, Listings & Ecosystem Development | 3.4/5 | PDF ❌ | SKIP — live, strong fit, but 5-day onsite NYC hard gate
+- [x] #003 | Kraken | Sr Associate, BD (Asset Listing) | 3.9/5 | PDF ❌ | Discarded — posting dead; Kraken BD org has ~20 open reqs, set alert
+- [x] #004 | Extsy | Listings Operations Manager | 2.8/5 | PDF ❌ | Discarded — closed + ops lane + sub-floor comp
+- [x] #005 | Superstate | BD, Protocol/DeFi | 3.2/5 | PDF ❌ | SKIP — NYC on-site is a Must Have
+- [x] #006 | Cere Network | BD Manager, Web3 | 2.6/5 | PDF ❌ | Discarded — closed; Europe UTC±2 only
+- [x] #007 | ChainGPT | BD Manager, Web3 SaaS | 3.4/5 | PDF ❌ | Discarded — closed; best thematic fit, watch for repost + DM Head of BD
+- [x] #008 | Toobit | BD Manager | 2.9/5 | PDF ❌ | SKIP — live + fast but $30–54K/yr below walk-away
+- [x] #009 | Fireblocks | BD Manager, Blockchain & DeFi | 3.1/5 | PDF ❌ | SKIP — $155–200K but hybrid NYC/London + 5yr DeFi bar; 12–18mo radar
+- [x] #010 | ethdevs.io | BD Manager, Web3/AI Services | 3.3/5 | PDF ❌ | Discarded — stale/closed; undefined commission comp
 
 ## New categories (added 2026-06-10): AI BD entry / social media / admin
 
