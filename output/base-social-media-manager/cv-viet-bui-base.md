@@ -35,5 +35,3 @@ Crypto-native operator who grew an NFT community to a $2M raise through Twitter/
 - **Social & Community:** X/Twitter growth, Discord ops, content calendars, Twitter Spaces, AMAs, partner co-marketing, community escalation/FUD response, social analytics.
 - **Crypto / Web3:** EVM / L2 ecosystems, NFT markets, token launches, tokenomics, crypto Twitter culture.
 - **Production:** async cross-functional coordination, weekly programming cadence, brief-driven delivery.
-
-<!-- ADD (Viet): link a portfolio of your 3 best threads/campaigns if recoverable — "shows, not tells" -->

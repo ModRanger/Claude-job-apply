@@ -18,7 +18,7 @@ Crypto-native BD operator with 4+ years in Web3 and a deep network across NFT an
 - Created the Bobo Olympics: a gaming-style, multi-week community competition I productized and cross-sold to 40+ partner communities. Every event was a deal — pitched, negotiated terms, coordinated logistics, delivered on schedule.
 - Moved every signed deal to go-live: coordinated cross-team delivery across art, smart contract dev, marketing, and community ops. Managed a distributed team across time zones; async-native (relevant for an AU-headquartered partner org).
 - Owned treasury and budget allocation; deep fluency in token economics, on-chain activity, and crypto market structure — can talk web3 game-economy design credibly with studios.
-- Ran my own pipeline and relationship tracking across 40+ active deals for 4 years with a weekly cadence — no CRM budget, no dropped threads. <!-- ADD (Viet): avg deal cycle, e.g. "first DM to signed collab in ~X weeks" — do not invent -->
+- Ran my own pipeline and relationship tracking across 40+ active deals for 4 years with a weekly cadence — no CRM budget, no dropped threads.
 
 ### Bethesda Salon — Co-Owner
 
