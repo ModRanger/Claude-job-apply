@@ -1,0 +1,80 @@
+# Career-Ops Profile Configuration — Viet Bui
+# Single source of truth for personal data across all modes.
+
+candidate:
+  full_name: "Viet Bui"
+  email: "viet.bui3@gmail.com"
+  phone: "+1-202-817-6601"
+  location: "Gaithersburg, MD, USA"
+  linkedin: ""          # TODO: add LinkedIn URL
+  portfolio_url: ""
+  github: ""
+  twitter: ""           # TODO: add X/Twitter handle (relevant for Web3 BD roles)
+
+target_roles:
+  # North Star: convert Web3 network + deal-closing track record into a BD/listings role.
+  # User stated goal: employed within ~1 week — cast a wide but coherent net.
+  primary:
+    - "Exchange Listings Agent / Listings Manager"
+    - "Business Development Manager (Crypto/Web3)"
+    - "Partnerships Manager (Crypto/Web3)"
+  archetypes:
+    - name: "Exchange Listings / Token Listings BD"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Web3 BD / Partnerships Manager"
+      level: "Mid-Senior"
+      fit: "primary"
+    - name: "Community / Ecosystem Lead"
+      level: "Mid-Senior"
+      fit: "secondary"
+    - name: "Account Manager / Customer Success (crypto or SaaS)"
+      level: "Mid"
+      fit: "secondary"
+    - name: "Sales / SDR / BDR (remote, any industry)"
+      level: "Mid"
+      fit: "adjacent"
+    - name: "Operations Manager (SMB / hospitality / multi-unit)"
+      level: "Senior"
+      fit: "adjacent"
+
+narrative:
+  headline: "Crypto-native BD operator — co-founded a $2M NFT project, closed 40+ ecosystem partnerships"
+  exit_story: "Co-founded and ran an NFT project for 4 years; raised $2M+ and closed 40+ partnerships through direct founder outreach. Now converting that network and deal-making muscle into a listings/BD role at an exchange or Web3 company."
+  superpowers:
+    - "Founder-level Web3 Rolodex (NFT + token projects, core teams, community leads)"
+    - "Full-funnel BD: sourcing, pitching, negotiating, closing — inbound and outbound"
+    - "Cross-functional delivery: moved deals from outreach to go-live across art, dev, marketing, community"
+    - "Real P&L ownership: 6 years running two physical businesses with 11 employees"
+  proof_points:
+    - name: "Bobos of War (NFT project)"
+      url: ""
+      hero_metric: "Raised $2M+ via community-led GTM; 40+ partnerships closed"
+    - name: "Bobo Olympics event series"
+      url: ""
+      hero_metric: "Weekly cross-project BD events — every event was a negotiated deal"
+    - name: "Bethesda Salon"
+      url: ""
+      hero_metric: "Two locations, 11 employees, full P&L for 6 years"
+
+compensation:
+  # TODO: user has not confirmed targets. Placeholder based on US remote BD/listings market.
+  # Crypto BD roles are often base + commission/token incentives — evaluate total package.
+  target_range: "$80K-120K base (+ commission/token upside where offered)"
+  currency: "USD"
+  minimum: "$60K"
+  location_flexibility: "Remote preferred (US East Coast); local on-site possible in DC/MD/VA"
+
+location:
+  country: "United States"
+  city: "Gaithersburg, MD (Washington DC metro)"
+  timezone: "ET (US Eastern)"
+  visa_status: "US work authorized, no sponsorship needed"
+
+search_policy:
+  # User explicitly wants speed: target = signed offer ASAP (stated goal: ~1 week).
+  # Still apply the quality bar (no sub-4.0 applications without explicit override),
+  # but bias toward fast-moving processes: startups, staffing agencies, roles with
+  # short interview loops. Flag "fast process" signals in evaluations.
+  urgency: "high"
+  open_to_any_industry: true   # BD/sales/ops/hospitality fallbacks are acceptable
