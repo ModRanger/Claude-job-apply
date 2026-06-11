@@ -5,8 +5,12 @@ Status: pending = not yet evaluated. Verify each is still active before applying
 
 ## Pending
 
-- [ ] pending — Magic Square — Sales & Business Development Specialist (Remote, posted ~4d ago) — https://web3.career/remote-jobs (find Magic Square listing; web3 app-store project — verify comp before evaluating)
-- [ ] pending — Somewhere — Remote Executive Assistant (contract-to-hire, posted ~1d ago) — https://remoteok.com/remote-jobs/remote-executive-assistant-somewhere-1133075 (CAUTION: offshore staffing firm, likely sub-floor pay — check rate first)
+(empty — add URLs here anytime; say "process the pipeline" to evaluate them)
+
+## Triaged out at scan level (no evaluation needed)
+
+- [!] 2026-06-10 — Magic Square — Sales & BD Specialist — listing is 2 years old (hub page date was misleading)
+- [!] 2026-06-10 — Somewhere — Remote EA — offshore recruiting agency, worldwide-rate comp; sub-floor for US candidate
 
 ## Processed (2026-06-10 batch #3)
 
