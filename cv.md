@@ -1,7 +1,7 @@
 # Viet Bui
 
-**Location:** Gaithersburg, MD (41 Hidden Field Dr.)
-**Phone:** 202.817.6601 • **WhatsApp:** +84-778486947
+**Location:** Gaithersburg, MD
+**Phone:** +1 (202) 817-6601
 **Email:** viet.bui3@gmail.com
 
 ## Summary
