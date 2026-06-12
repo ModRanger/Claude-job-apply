@@ -1,22 +1,21 @@
-# Cover Letter — Immutable, Senior Business Development Manager (Americas)
-
-*Verify against the full Lever JD before sending; tighten any paragraph that doesn't map to a stated requirement.*
-
----
+# Cover Letter — Immutable, Senior Business Development Manager, Americas
+# (v2 — retuned to the actual Lever JD, comp band $229,450–$267,800)
 
 Dear Immutable team,
 
-I closed 40+ Web3 partnerships the hard way: no brand behind me, no team, no inbound. I co-founded Bobos of War, an NFT project that raised over $2M through community-led GTM, and I personally owned every deal from first DM to go-live. I want to run that same motion for the Americas with the leading web3 gaming platform behind me.
+Your JD asks for high-velocity selling: short cycles, lots of deals, repeatable playbooks. That's the exact shape of my track record. As co-founder of Bobos of War, an NFT project that raised over $2M, I personally sourced, pitched, negotiated, and closed 40+ partnerships in four years — no brand behind me, no inbound, no team. I built the pipeline from zero, productized the deal format so it repeated week after week, and carried every outcome from first outreach to go-live.
 
-Three reasons I fit this seat:
+Against what you're looking for:
 
-**I source and close founder-to-founder.** My BD motion ran on Discord, Twitter, and direct founder outreach — the channels where web3 gaming studios actually live. The relationships I built across NFT and token projects over four years are current, and many of those communities sit exactly where Immutable's pipeline starts.
+**Pipeline from scratch, full ownership.** I built my entire book through founder-direct outreach on the channels where game studios actually live — Discord, X, and DMs. Every win in the project's growth was directly tied to my deals. That's the autonomous, territory-owner mode this role describes.
 
-**My deals shipped.** Closing was half my job; the other half was coordinating art, smart contract dev, marketing, and community ops until the partnership went live. The Bobo Olympics — a gaming-style, multi-week cross-community competition — was a productized partnership format I sold to 40+ communities and delivered weekly without a missed event. That deal-to-delivery muscle is what makes a partner renew.
+**A repeatable playbook.** The Bobo Olympics was a partnership format I productized and cross-sold to 40+ communities: standardized pitch, standardized terms, weekly delivery without a missed event. Give me Immutable's growth products and the Americas, and I'll build the same engine with far better tooling.
 
-**I can talk game economies credibly.** I owned our treasury and token-economics decisions through a full market cycle. When a studio asks how their in-game economy survives launch, I've made those trade-offs with my own capital on the line.
+**Deals that ship.** Closing was half my job; I coordinated art, smart-contract dev, marketing, and community teams until every partnership went live. Your studios will renew because go-live happens on schedule.
 
-I'm US East Coast, fully remote, and async-native from years of working with a team spread across time zones — useful with an AU headquarters. Happy to walk through a specific deal end-to-end (who, terms, timeline, outcome) in a first conversation.
+On the quota question, directly: I've never carried a corporate quota — I carried payroll. Every deal I closed funded the project through a full market cycle, including the bear. I also owned our treasury and token-economics decisions, so I can hold a credible conversation about game economies and monetization with studio leadership. Your bonus list says founding-stage BD experience counts; that's been my whole career.
+
+I'm US East Coast, fully remote, and async-native from years of working with a distributed team — which should pair well with a Sydney HQ. Happy to walk through three deals end to end (sourcing, terms, timeline, outcome) in a first conversation.
 
 Viet Bui
 Viet.Bui3@Gmail.com • linkedin.com/in/vietqbui

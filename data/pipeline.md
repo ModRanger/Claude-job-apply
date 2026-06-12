@@ -5,7 +5,9 @@ Status: pending = not yet evaluated. Verify each is still active before applying
 
 ## Pending
 
-(empty — add URLs here anytime; say "process the pipeline" to evaluate them)
+
+- [ ] pending — Tether — Influencer Marketing Manager, $104–144K, 100% remote, 2d old — https://web3.career/influencer-marketing-manager-100-remote-tetheroperationslimited/150309 (check Portugal restriction)
+- [ ] pending — WOO — Social Media & Community Executive, $90–115K, remote, ~1mo — https://web3.career/social-media-community-executive-woo/149357 (verify live)
 
 ## Triaged out at scan level (no evaluation needed)
 
