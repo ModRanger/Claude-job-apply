@@ -1,0 +1,391 @@
+# Instincts generated from https://github.com/ModRanger/Claude-job-apply
+# Generated: 2026-06-28T23:28:32.253Z
+# Version: 2.0
+# NOTE: This file supplements (does not replace) any existing curated instincts.
+# High-confidence manually curated instincts should be preserved alongside these.
+
+---
+id: Claude-job-apply-commit-length
+trigger: "when writing a commit message"
+confidence: 0.6
+domain: git
+source: repo-analysis
+source_repo: https://github.com/ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Commit Length
+
+## Action
+
+Write detailed commit messages (~101 characters for first line)
+
+## Evidence
+
+- Average commit message length: 101 chars
+- Based on 13 commits
+
+---
+id: Claude-job-apply-naming-files
+trigger: "when creating a new file"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Naming Files
+
+## Action
+
+Use kebab-case naming convention
+
+## Evidence
+
+- Analyzed file naming patterns in repository
+- Dominant pattern: kebab-case
+
+---
+id: Claude-job-apply-import-relative
+trigger: "when importing modules"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Import Relative
+
+## Action
+
+Use relative imports for project files
+
+## Evidence
+
+- Import analysis shows relative import pattern
+- Example: import { x } from '../lib/x'
+
+---
+id: Claude-job-apply-export-style
+trigger: "when exporting from a module"
+confidence: 0.7
+domain: code-style
+source: repo-analysis
+source_repo: https://github.com/ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Export Style
+
+## Action
+
+Prefer named exports
+
+## Evidence
+
+- Export pattern analysis
+- Dominant style: named
+
+---
+id: Claude-job-apply-test-separate
+trigger: "when writing tests"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: https://github.com/ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Test Separate
+
+## Action
+
+Place tests in the tests/ or __tests__/ directory, mirroring src structure
+
+## Evidence
+
+- Separate test directory pattern detected
+- Tests live in dedicated test folders
+
+---
+id: Claude-job-apply-workflow-pipeline-batch-evaluation-and-tracking
+trigger: "when doing pipeline batch evaluation and tracking"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Workflow Pipeline Batch Evaluation And Tracking
+
+## Action
+
+Follow the pipeline-batch-evaluation-and-tracking workflow:
+1. Add new TSV files for each evaluated lead to batch/tracker-additions/merged/
+2. Update data/applications.md and data/pipeline.md with results and status
+3. Generate detailed evaluation reports in reports/ (one per lead)
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: batch/tracker-additions/merged/*.tsv, data/applications.md, data/pipeline.md
+
+---
+id: Claude-job-apply-workflow-tailored-application-package-generation
+trigger: "when doing tailored application package generation"
+confidence: 0.6
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Workflow Tailored Application Package Generation
+
+## Action
+
+Follow the tailored-application-package-generation workflow:
+1. Draft and save a tailored cover letter in output/<role>/cover-letter.md
+2. Draft and save a tailored CV in output/<role>/cv-<candidate>-<role>.md
+3. Optionally, add email templates or application kits for the role
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~2x per month
+- Files: output/*/cover-letter.md, output/*/cv-*.md, output/*/email-application.md
+
+---
+id: Claude-job-apply-workflow-pipeline-lead-queue-and-triage
+trigger: "when doing pipeline lead queue and triage"
+confidence: 0.65
+domain: workflow
+source: repo-analysis
+source_repo: https://github.com/ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Workflow Pipeline Lead Queue And Triage
+
+## Action
+
+Follow the pipeline-lead-queue-and-triage workflow:
+1. Add new leads to data/pipeline.md
+2. Review and update data/pipeline.md to remove or comment on leads after triage
+
+## Evidence
+
+- Workflow detected from commit patterns
+- Frequency: ~3x per month
+- Files: data/pipeline.md
+
+---
+id: claude-job-apply-instinct-file-naming
+trigger: "When creating a new source code file"
+confidence: 0.85
+domain: code-style
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct File Naming
+
+## Action
+
+Name the file using kebab-case (e.g., my-module.py)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.files
+
+---
+id: claude-job-apply-instinct-function-naming
+trigger: "When defining a new function"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Function Naming
+
+## Action
+
+Use camelCase for function names (e.g., processLead())
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.functions
+
+---
+id: claude-job-apply-instinct-class-naming
+trigger: "When defining a new class"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Class Naming
+
+## Action
+
+Use PascalCase for class names (e.g., LeadEvaluator)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.classes
+
+---
+id: claude-job-apply-instinct-constant-naming
+trigger: "When defining a constant"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Constant Naming
+
+## Action
+
+Use SCREAMING_SNAKE_CASE for constant names (e.g., MAX_BATCH_SIZE)
+
+## Evidence
+
+- Pattern in codeStyle.namingConventions.constants
+
+---
+id: claude-job-apply-instinct-import-style
+trigger: "When importing modules within the project"
+confidence: 0.8
+domain: code-style
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Import Style
+
+## Action
+
+Use relative imports
+
+## Evidence
+
+- Pattern in codeStyle.importStyle
+
+---
+id: claude-job-apply-instinct-export-style
+trigger: "When exporting functions or classes from a module"
+confidence: 0.75
+domain: code-style
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Export Style
+
+## Action
+
+Use named exports
+
+## Evidence
+
+- Pattern in codeStyle.exportStyle
+
+---
+id: claude-job-apply-instinct-test-location
+trigger: "When writing tests for a module"
+confidence: 0.8
+domain: testing
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Test Location
+
+## Action
+
+Place test files in a separate test directory, not alongside source files
+
+## Evidence
+
+- Pattern in architecture.folderStructure.testLocation
+
+---
+id: claude-job-apply-instinct-git-commit-format
+trigger: "When writing a commit message"
+confidence: 0.85
+domain: git
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Git Commit Format
+
+## Action
+
+Use a concise, descriptive freeform message without a prefix; average length ~100 characters
+
+## Evidence
+
+- Pattern in commits.type
+- Seen in commit examples
+
+---
+id: claude-job-apply-instinct-batch-evaluation
+trigger: "When a new batch of job leads needs to be evaluated and tracked"
+confidence: 0.95
+domain: workflow
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Batch Evaluation
+
+## Action
+
+Add TSVs for each lead to batch/tracker-additions/merged/, update data/applications.md and data/pipeline.md, and generate evaluation reports in reports/
+
+## Evidence
+
+- pipeline-batch-evaluation-and-tracking workflow
+- Seen in commit: 'Evaluate first pipeline batch: 10 BD/listings roles scored, tracker merged, story bank seeded'
+
+---
+id: claude-job-apply-instinct-tailored-application
+trigger: "When a candidate is ready to apply to a specific role that passed evaluation"
+confidence: 0.9
+domain: workflow
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Tailored Application
+
+## Action
+
+Draft and save a tailored cover letter and CV in output/<role>/, optionally add email templates or application kits
+
+## Evidence
+
+- tailored-application-package-generation workflow
+- Seen in commit: 'Render tailored resume PDFs (Immutable, Base, Function Health) via reportlab; include build script'
+
+---
+id: claude-job-apply-instinct-lead-queue-triage
+trigger: "When new leads are discovered or when queued leads need to be reviewed"
+confidence: 0.85
+domain: workflow
+source: repo-analysis
+source_repo: ModRanger/Claude-job-apply
+---
+
+# Claude Job Apply Instinct Lead Queue Triage
+
+## Action
+
+Add new leads to data/pipeline.md, and review/update data/pipeline.md to remove or comment on leads after triage
+
+## Evidence
+
+- pipeline-lead-queue-and-triage workflow
+- Seen in commit: 'Loop scan tick: queue Magic Square BD and Somewhere EA leads'
+- Seen in commit: 'Triage queued leads: Magic Square (2y-old listing) and Somewhere EA (offshore rates) both out'
+
