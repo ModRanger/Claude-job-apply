@@ -75,11 +75,18 @@ Otherwise copy-paste from the files below and attach the matching PDF.
 
 ## 4. Clone locally
 
+Everything is merged to `main`, so plain clones get it all (no branch flag needed).
+
+**macOS / Linux:**
 ```bash
-# Career-ops (evaluations, CVs, tracker, this handoff)
-git clone -b claude/multi-tool-job-apply-5m8292 https://github.com/ModRanger/Claude-job-apply
-# ApplyPilot (auto-apply engine)
-git clone -b claude/multi-tool-job-apply-5m8292 https://github.com/ModRanger/ApplyPilot
+git clone https://github.com/ModRanger/Claude-job-apply   # evals, CVs, tracker, this handoff
+git clone https://github.com/ModRanger/ApplyPilot         # auto-apply engine
+```
+
+**Windows (PowerShell)** — run each line separately (`&&` fails in PowerShell 5.1):
+```powershell
+git clone https://github.com/ModRanger/Claude-job-apply
+git clone https://github.com/ModRanger/ApplyPilot
 ```
 
 Your pre-filled ApplyPilot profile is `ApplyPilot/profile.viet.json`.
@@ -88,22 +95,39 @@ Your pre-filled ApplyPilot profile is `ApplyPilot/profile.viet.json`.
 
 ## 5. ApplyPilot setup (volume auto-apply with a real browser)
 
+**macOS / Linux (bash):**
 ```bash
+cd ApplyPilot
 pip install applypilot
 pip install --no-deps python-jobspy && pip install pydantic tls-client requests markdownify regex
-
 mkdir -p ~/.applypilot
-# Paste your Gemini key here (the capped one you generated). NOT stored in git on purpose.
-echo 'GEMINI_API_KEY=PASTE_YOUR_GEMINI_KEY_HERE' >> ~/.applypilot/.env
-
-cp ApplyPilot/profile.viet.json profile.json   # then open it, add your job-site password if needed
-
+echo 'GEMINI_API_KEY=PASTE_YOUR_GEMINI_KEY_HERE' >> ~/.applypilot/.env   # NOT stored in git
+cp profile.viet.json profile.json   # then open it, add your job-site password if needed
 applypilot init      # point at profile.json + your resume
 applypilot doctor    # confirms Chrome, Node, key
 applypilot run -w 4  # discover → score → tailor → cover letters
 applypilot apply --dry-run   # WATCH it fill forms without submitting — do this first
 applypilot apply -w 3        # then let it submit
 ```
+
+**Windows (PowerShell)** — one command per line; `Add-Content`, not `echo >>`:
+```powershell
+cd .\ApplyPilot
+pip install applypilot
+pip install --no-deps python-jobspy
+pip install pydantic tls-client requests markdownify regex
+New-Item -ItemType Directory -Force "$HOME\.applypilot"
+Add-Content "$HOME\.applypilot\.env" "GEMINI_API_KEY=PASTE_YOUR_GEMINI_KEY_HERE"
+Copy-Item profile.viet.json profile.json
+applypilot init
+applypilot doctor    # confirms Python 3.11+, Node, Chrome, key
+applypilot run -w 4
+applypilot apply --dry-run
+applypilot apply -w 3
+```
+
+If `doctor` flags a missing prereq: Python 3.11+ (`python --version`, python.org, tick
+"Add to PATH"), Node.js LTS (`node --version`, nodejs.org), Chrome (normal install).
 
 ⚠️ Your Gemini key is NOT in this file or git (repo secret-scanning blocks it, correctly).
 Paste it into `~/.applypilot/.env` locally as shown above. Rotate it after the search.
