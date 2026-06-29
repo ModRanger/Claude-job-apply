@@ -1,0 +1,237 @@
+# Portal Scanner Configuration — Viet Bui
+# Tuned for: exchange listings / Web3 BD / partnerships / community roles,
+# with non-crypto sales/AM/ops as fallback. Inverted from the AI-engineering
+# defaults (crypto/web3 moved from negative to positive).
+
+title_filter:
+  positive:
+    # -- Listings / BD / partnerships --
+    - "Listing"
+    - "Listings"
+    - "Business Development"
+    - "BD Manager"
+    - "Partnership"
+    - "Partnerships"
+    - "Alliances"
+    - "Ecosystem"
+    - "Growth"
+    # -- Crypto / Web3 --
+    - "Web3"
+    - "Crypto"
+    - "Blockchain"
+    - "Token"
+    - "NFT"
+    - "DeFi"
+    - "Exchange"
+    # -- Community --
+    - "Community"
+    - "Discord"
+    - "Ambassador"
+    # -- Fallback: sales / AM / ops --
+    - "Account Manager"
+    - "Account Executive"
+    - "Customer Success"
+    - "Sales Development"
+    - "SDR"
+    - "BDR"
+    - "Operations Manager"
+    # -- New categories (added 2026-06-10) --
+    - "Social Media"
+    - "Content Manager"
+    - "Marketing Coordinator"
+    - "Administrative Assistant"
+    - "Executive Assistant"
+    - "Virtual Assistant"
+    - "Office Manager"
+    - "Operations Coordinator"
+    - "Customer Support"
+    - "Moderator"
+    - "Event"
+  negative:
+    - "Intern"
+    - "Unpaid"
+    - "Engineer"
+    - "Developer"
+    - "Scientist"
+    - "Designer"
+    - "Architect"
+    - "Counsel"
+    - "Attorney"
+    - "Accountant"
+    - "Auditor"
+    - "Nurse"
+    - "Physician"
+  seniority_boost:
+    - "Senior"
+    - "Lead"
+    - "Head"
+    - "Director"
+    - "Manager"
+
+# -- Search queries --
+search_queries:
+  - name: Web3.career — listings
+    query: 'site:web3.career "listing" OR "listings" remote'
+    enabled: true
+
+  - name: Web3.career — BD
+    query: 'site:web3.career "business development" OR "partnerships" remote'
+    enabled: true
+
+  - name: CryptocurrencyJobs — BD
+    query: 'site:cryptocurrencyjobs.co "business development" OR "partnerships" OR "listings"'
+    enabled: true
+
+  - name: CryptoJobsList — BD
+    query: 'site:cryptojobslist.com "business development" OR "listings" OR "partnerships" remote'
+    enabled: true
+
+  - name: Greenhouse — crypto BD
+    query: 'site:boards.greenhouse.io crypto OR web3 "business development" OR "partnerships" remote'
+    enabled: true
+
+  - name: Lever — crypto BD
+    query: 'site:jobs.lever.co crypto OR exchange "business development" OR "listings" remote'
+    enabled: true
+
+  - name: Ashby — web3 BD
+    query: 'site:jobs.ashbyhq.com web3 OR crypto "business development" OR "partnerships" remote'
+    enabled: true
+
+  - name: a16z crypto portfolio
+    query: 'site:jobs.a16zcrypto.com "business development" OR "partnerships" OR "community"'
+    enabled: true
+
+  - name: RemoteOK — sales fallback
+    query: 'site:remoteok.com "account executive" OR "business development" remote US'
+    enabled: true
+
+  - name: WeWorkRemotely — sales fallback
+    query: 'site:weworkremotely.com "account manager" OR "business development" OR "customer success"'
+    enabled: true
+
+  - name: AI startups — entry BD/SDR
+    query: 'site:jobs.ashbyhq.com OR site:boards.greenhouse.io AI "sales development representative" OR "business development representative" remote entry'
+    enabled: true
+
+  - name: Social media — remote
+    query: 'site:weworkremotely.com OR site:remoteok.com "social media manager" OR "social media coordinator" remote'
+    enabled: true
+
+  - name: Crypto social/community
+    query: 'site:cryptojobslist.com OR site:web3.career "social media" OR "community manager" remote'
+    enabled: true
+
+  - name: Admin/EA — remote
+    query: 'site:weworkremotely.com OR site:remoteok.com "executive assistant" OR "administrative assistant" OR "virtual assistant" remote US'
+    enabled: true
+
+# -- Tracked companies --
+# Exchanges first (listings roles live here), then Web3 infra/projects, then
+# remote-friendly fallbacks. careers_url = entry point for Playwright scan.
+tracked_companies:
+  # -- Exchanges (primary targets for Listings Agent) --
+  - name: Coinbase
+    careers_url: https://www.coinbase.com/careers/positions
+    enabled: true
+  - name: Kraken
+    careers_url: https://jobs.kraken.com/jobs
+    enabled: true
+  - name: Binance
+    careers_url: https://www.binance.com/en/careers/job-openings
+    enabled: true
+  - name: Crypto.com
+    careers_url: https://careers.crypto.com/
+    enabled: true
+  - name: OKX
+    careers_url: https://www.okx.com/careers
+    enabled: true
+  - name: Bybit
+    careers_url: https://careers.bybit.com/
+    enabled: true
+  - name: Gemini
+    careers_url: https://www.gemini.com/careers
+    enabled: true
+  - name: Bitget
+    careers_url: https://www.bitget.com/careers
+    enabled: true
+  - name: KuCoin
+    careers_url: https://www.kucoin.com/careers
+    enabled: true
+  - name: Gate.io
+    careers_url: https://www.gate.io/careers
+    enabled: true
+  - name: MEXC
+    careers_url: https://www.mexc.com/careers
+    enabled: true
+  - name: Uphold
+    careers_url: https://uphold.com/en-us/careers
+    enabled: true
+
+  # -- Web3 infra / projects (BD, partnerships, ecosystem, community) --
+  - name: Circle
+    careers_url: https://www.circle.com/en/careers
+    enabled: true
+  - name: Ripple
+    careers_url: https://ripple.com/careers/all-jobs
+    enabled: true
+  - name: Consensys
+    careers_url: https://consensys.io/open-roles
+    enabled: true
+  - name: Uniswap Labs
+    careers_url: https://boards.greenhouse.io/uniswaplabs
+    enabled: true
+  - name: OpenSea
+    careers_url: https://opensea.io/careers
+    enabled: true
+  - name: Magic Eden
+    careers_url: https://magiceden.io/careers
+    enabled: true
+  - name: Alchemy
+    careers_url: https://www.alchemy.com/careers
+    enabled: true
+  - name: Chainalysis
+    careers_url: https://www.chainalysis.com/careers/
+    enabled: true
+  - name: Fireblocks
+    careers_url: https://www.fireblocks.com/careers/
+    enabled: true
+  - name: Ledger
+    careers_url: https://www.ledger.com/join-us
+    enabled: true
+  - name: Polygon
+    careers_url: https://polygon.technology/careers
+    enabled: true
+  - name: Solana Foundation
+    careers_url: https://jobs.solana.com/jobs
+    enabled: true
+  - name: Animoca Brands
+    careers_url: https://www.animocabrands.com/careers
+    enabled: true
+  - name: Offchain Labs (Arbitrum)
+    careers_url: https://www.offchainlabs.com/careers
+    enabled: true
+  - name: Galaxy Digital
+    careers_url: https://www.galaxy.com/careers/
+    enabled: true
+  - name: Anchorage Digital
+    careers_url: https://www.anchorage.com/careers
+    enabled: true
+  - name: BitGo
+    careers_url: https://www.bitgo.com/careers/
+    enabled: true
+  - name: MoonPay
+    careers_url: https://www.moonpay.com/careers
+    enabled: true
+  - name: CoinGecko
+    careers_url: https://careers.coingecko.com/
+    enabled: true
+  - name: CoinMarketCap
+    careers_url: https://coinmarketcap.com/careers/
+    enabled: true
+  - name: Messari
+    careers_url: https://messari.io/careers
+    enabled: true
+  - name: Dune Analytics
+    careers_url: https://dune.com/careers
+    enabled: true
