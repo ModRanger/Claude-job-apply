@@ -5,8 +5,18 @@ different jobs. This file is how to clone, run, and compare them.
 
 ## Clone all three side by side
 
+**macOS / Linux (bash):**
 ```bash
 mkdir ~/job-apply-tools && cd ~/job-apply-tools
+git clone https://github.com/ModRanger/ApplyPilot
+git clone https://github.com/ModRanger/EasyApplyJobsBot
+git clone https://github.com/ModRanger/Claude-job-apply
+```
+
+**Windows (PowerShell):** `&&` is not a valid separator in Windows PowerShell 5.1 —
+run each line on its own. You don't need a wrapper folder; cloning into any working
+folder drops the three repos side by side.
+```powershell
 git clone https://github.com/ModRanger/ApplyPilot
 git clone https://github.com/ModRanger/EasyApplyJobsBot
 git clone https://github.com/ModRanger/Claude-job-apply
@@ -31,6 +41,8 @@ clone gets everything — no feature branch to track.
 ## How to compare them fairly
 
 ### ApplyPilot — the real contender
+
+**macOS / Linux (bash):**
 ```bash
 cd ~/job-apply-tools/ApplyPilot
 pip install applypilot
@@ -42,6 +54,26 @@ applypilot run -w 4                    # discover → score → tailor → cover
 applypilot apply --dry-run             # WATCH it fill forms without submitting — the real evaluation
 applypilot apply -w 3                  # only after dry-run looks right
 ```
+
+**Windows (PowerShell):** one command per line; use `Add-Content`, not `echo >>`.
+```powershell
+cd .\ApplyPilot
+pip install applypilot
+pip install --no-deps python-jobspy
+pip install pydantic tls-client requests markdownify regex
+New-Item -ItemType Directory -Force "$HOME\.applypilot"
+Add-Content "$HOME\.applypilot\.env" "GEMINI_API_KEY=PASTE_YOUR_KEY"
+Copy-Item profile.viet.json profile.json
+applypilot doctor          # confirms Python 3.11+, Node, Chrome are present
+applypilot run -w 4
+applypilot apply --dry-run # WATCH it fill forms without submitting
+applypilot apply -w 3      # only after dry-run looks right
+```
+
+**Prereqs `doctor` checks (install if it flags ❌):**
+- Python 3.11+ → `python --version`; get it at python.org (tick "Add to PATH" on Windows)
+- Node.js → `node --version`; get the LTS at nodejs.org
+- Chrome → normal desktop install; auto-detected
 
 ### EasyApplyJobsBot — inspect, probably don't run
 - Read `config.py` and `README.md` first.
